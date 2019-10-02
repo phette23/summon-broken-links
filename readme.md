@@ -26,6 +26,8 @@ Luckily, Summon also seems to have an easy-to-use, undocumented API that does no
 
 ## check links of top ten results
 
+`node src/check-links.js`
+
 ## individually analyze/classify link breakages
 
 ## compile summary statistics
