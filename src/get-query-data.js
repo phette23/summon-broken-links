@@ -2,7 +2,7 @@ const fs = require('fs')
 const qs = require('querystring')
 const request = require('request')
 const queries = JSON.parse(fs.readFileSync('data/queries.json').toString())
-const baseUrl = 'https://cca.summon.serialssolutions.com/api/search?ho=f&q='
+const baseUrl = 'https://cca.summon.serialssolutions.com/api/search?ho=t&q='
 
 let getResults = (q, index) => {
     let url = baseUrl + qs.escape(q)
