@@ -3,6 +3,7 @@ const fs = require("fs")
 const chalk = require("chalk")
 const opn = require("opn")
 const prompt = require("prompt")
+const striptags = require("striptags")
 const print = console.log
 // the help make prompt properties such that typing y/n -> true/false values
 let yn_regex = /^[yn]$/
@@ -98,7 +99,7 @@ function askQuestions(documents, index) {
         // ask questions about document
         doc = documents[index]
         print(`Document no. ${index + 1} of ${documents.length}`)
-        print(chalk.cyan.bold(doc.full_title))
+        print(chalk.cyan.bold(striptags(doc.full_title)))
         if (doc.authors && doc.authors.length) {
             print(chalk.cyan.bold(`Authors: ${doc.authors.map(author => author.fullname).join(', ')}.`))
         }
@@ -116,4 +117,5 @@ function askQuestions(documents, index) {
 prompt.message = ''
 prompt.delimiter = ''
 prompt.start()
+print('What file do you want to start with? (e.g. data/results/1.json)')
 getData()
