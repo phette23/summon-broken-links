@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 // NOTE: after all this, I still can't get the HMAC-SHA1 auth to work
 // https://developers.exlibrisgroup.com/summon/apis/SearchAPI/Authentication/
+const crypto = require('crypto')
 const request = require('request')
 const jssha = require('jssha')
-const secret = require('./auth.json').key
+const key = require('./auth.json').key
 
 // all these parameters are used to construct the auth string
 let accept = 'application/json'
@@ -13,22 +14,25 @@ let path = '/2.0.0/search'
 let query = 'q=beyond+good+and+evil'
 
 // join the 5 parameters, appending a newline to each (including the last)
-let auth_string = [accept, date, host, path, query].join('\n') + '\n'
-// https://www.npmjs.com/package/jssha#hmac
-let shaObj = new jssha("SHA-1", "TEXT")
-shaObj.setHMACKey(secret, "TEXT")
-shaObj.update(auth_string)
-let hmac = shaObj.getHMAC("HEX")
-let hash = Buffer.from(hmac, 'binary').toString('base64')
+let idString = [accept, date, host, path, query].join('\n') + '\n'
+// other way to do it: https://www.npmjs.com/package/jssha#hmac
+// let shaObj = new jssha("SHA-1", "TEXT")
+// shaObj.setHMACKey(key, "TEXT")
+// shaObj.update(idString)
+// let digest = shaObj.getHMAC("B64")
+// https://github.com/summon/summon-api-toolkit/blob/master/node.js/summonapidemo.js
+let hmac = crypto.createHmac('sha1', key)
+let hash = hmac.update(idString)
+let digest = hash.digest('base64')
 
 let headers = {
     'Accept': accept,
-    'Authorization': ' Summon cca;' + hash,
+    'Authorization': 'Summon cca;' + digest,
     'Host': host,
     'x-summon-date': date,
 }
 let opts = {
-    url: `https://${host}${path}/?${query}`,
+    url: `https://${host}${path}?${query}`,
     headers: headers,
 }
 
