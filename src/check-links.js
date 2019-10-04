@@ -1,14 +1,18 @@
 const fs = require("fs")
 
-const prompt = require("prompt")
 const chalk = require("chalk")
+const opn = require("opn")
+const prompt = require("prompt")
 const print = console.log
-// y(es)/n(o) regex
+// the help make prompt properties such that typing y/n -> true/false values
 let yn_regex = /^[yn]$/
 let convertYNToBoolean = (value) => {
     return value === 'n' ? false : true
 }
+let results = []
+let filename = ''
 
+// prompt questions - continue analying files or stop
 let continue_schema = {
     properties: {
         continue: {
@@ -22,6 +26,7 @@ let continue_schema = {
     }
 }
 
+// prompt questions - was link broken
 let link_check_schema = {
     properties: {
         destination: {
@@ -55,17 +60,29 @@ let link_check_schema = {
 };
 
 function getData() {
+    // clear out previous global values
+    results = []
+    filename = ''
+    let data = {}
+    // ask what file we're analyzing
     prompt.get(['filename'], (err, answers) => {
         if (err) throw err
         filename = answers.filename
-        data = JSON.parse(fs.readFileSync(filename))
+        try {
+            data = JSON.parse(fs.readFileSync(filename))
+        } catch (e) {
+            print(`Error opening file "${filename}". Check that the path is correct.`)
+            throw e;
+        }
         print(`Received ${data.documents.length} results for query [ ${data.query.original_query} ]`)
         return askQuestions(data.documents)
     })
 }
 
 function askQuestions(documents, index) {
+    // start at the top if we don't know where we are
     if (index === undefined) index = 0
+    // we're done; write results to file & ask if we should continue
     if (index === documents.length) {
         print(chalk.bold(`Finished checking documents in ${filename}`))
         fs.writeFile(`${filename.replace('results', 'analysis')}`, JSON.stringify(results, null, '  '), (err) => {
@@ -73,18 +90,22 @@ function askQuestions(documents, index) {
             print(`wrote results to ${filename.replace('results', 'analysis')}`)
             prompt.get(continue_schema, (err, answers) => {
                 if (!answers.continue) process.exit(0)
+                results = []
                 return getData()
             })
         })
     } else {
+        // ask questions about document
         doc = documents[index]
         print(`Document no. ${index + 1} of ${documents.length}`)
         print(chalk.cyan.bold(doc.full_title))
         if (doc.authors && doc.authors.length) {
             print(chalk.cyan.bold(`Authors: ${doc.authors.map(author => author.fullname).join(', ')}.`))
         }
-        print(doc.link)
+        // give user two seconds to read document title, then open its URL
+        setTimeout(() => opn(doc.link), 2000)
         prompt.get(link_check_schema, (err, answers) => {
+            // once we have answers, record in results
             doc.link_check = answers
             results.push(doc)
             return askQuestions(documents, ++index)
@@ -92,8 +113,6 @@ function askQuestions(documents, index) {
     }
 }
 
-let results = []
-let filename = ''
 prompt.message = ''
 prompt.delimiter = ''
 prompt.start()
