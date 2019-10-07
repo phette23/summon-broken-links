@@ -1,12 +1,10 @@
 #!/usr/bin/env node
-// NOTE: after all this, I still can't get the HMAC-SHA1 auth to work
-// https://developers.exlibrisgroup.com/summon/apis/SearchAPI/Authentication/
 const crypto = require('crypto')
 
 const request = require('request')
 
 const key = require('./auth.json').key
-
+// https://developers.exlibrisgroup.com/summon/apis/SearchAPI/Authentication/
 // all these parameters are used to construct the auth string
 let accept = 'application/json'
 let date = new Date().toUTCString()
