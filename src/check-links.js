@@ -4,6 +4,8 @@ const chalk = require("chalk")
 const opn = require("opn")
 const prompt = require("prompt")
 const striptags = require("striptags")
+
+const stringify = require("./stringify.js")
 const print = console.log
 // the help make prompt properties such that typing y/n -> true/false values
 let yn_regex = /^[yn]$/
@@ -86,7 +88,7 @@ function askQuestions(documents, index) {
     // we're done; write results to file & ask if we should continue
     if (index === documents.length) {
         print(chalk.bold(`Finished checking documents in ${filename}`))
-        fs.writeFile(`${filename.replace('results', 'analysis')}`, JSON.stringify(results, null, '  '), (err) => {
+        fs.writeFile(`${filename.replace('results', 'analysis')}`, stringify(results), (err) => {
             if (err) throw err
             print(`wrote results to ${filename.replace('results', 'analysis')}`)
             prompt.get(continue_schema, (err, answers) => {

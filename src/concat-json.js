@@ -4,6 +4,7 @@ const path = require("path")
 
 const async = require("async")
 
+const stringify = require("./stringify.js")
 let outfile = 'all.json'
 let dir = 'data/analysis'
 
@@ -20,7 +21,7 @@ function combineAndWrite (err, result) {
     // result is an array of arrays
     result.forEach(arr => output.push(...arr))
     // write JSON data to outfile
-    fs.writeFile(path.join(dir, outfile), JSON.stringify(output, null, 2), (err) => {
+    fs.writeFile(path.join(dir, outfile), stringify(output), (err) => {
         if (err) throw err
         console.log(`Combined all JSON files in ${dir} into ${outfile}`)
     })

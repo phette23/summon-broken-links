@@ -2,8 +2,9 @@
 // NOTE: after all this, I still can't get the HMAC-SHA1 auth to work
 // https://developers.exlibrisgroup.com/summon/apis/SearchAPI/Authentication/
 const crypto = require('crypto')
+
 const request = require('request')
-const jssha = require('jssha')
+
 const key = require('./auth.json').key
 
 // all these parameters are used to construct the auth string
@@ -11,15 +12,10 @@ let accept = 'application/json'
 let date = new Date().toUTCString()
 let host = 'api.summon.serialssolutions.com'
 let path = '/2.0.0/search'
-let query = 'q=beyond+good+and+evil'
+let query = 's.q=beyond good and evil'
 
 // join the 5 parameters, appending a newline to each (including the last)
 let idString = [accept, date, host, path, query].join('\n') + '\n'
-// other way to do it: https://www.npmjs.com/package/jssha#hmac
-// let shaObj = new jssha("SHA-1", "TEXT")
-// shaObj.setHMACKey(key, "TEXT")
-// shaObj.update(idString)
-// let digest = shaObj.getHMAC("B64")
 // https://github.com/summon/summon-api-toolkit/blob/master/node.js/summonapidemo.js
 let hmac = crypto.createHmac('sha1', key)
 let hash = hmac.update(idString)
@@ -39,7 +35,6 @@ let opts = {
 function handler (err, response, body) {
     if (err) throw err
 
-    console.log(response)
     console.log(body)
 }
 

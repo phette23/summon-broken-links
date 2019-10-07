@@ -1,8 +1,10 @@
 // given CSV, return X random entries
 // usage: node select-random-queries.js data.csv > queries.json
-const csv = require('csv');
-const fs = require('fs');
+const fs = require('fs')
 
+const csv = require('csv')
+
+const stringify = require("./stringify.js")
 let file = process.argv[2] || 'data/all-search-terms.csv'
 let queries = []
 let selectNAtRandom = (array, n) => {
@@ -19,7 +21,7 @@ let addToQueries = (record) => {
 }
 
 let print = (obj) => {
-    console.log(JSON.stringify(obj, null, '\t'))
+    console.log(stringify(obj))
 }
 
 fs.createReadStream(file)
