@@ -49,7 +49,7 @@ function headers(query) {
     let digest = makeAuthDigest(query, date)
     let headers = {
         'Accept': accept,
-        'Authorization': `Summon ${accessId};` + digest,
+        'Authorization': `Summon ${accessId};${digest}`,
         'Host': host,
         'x-summon-date': date,
     }
