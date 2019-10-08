@@ -6,7 +6,8 @@ const request = require('request')
 const api = require("./api.js")
 
 // query is an array of key:value param hashes
-let query = [ { "s.q": "beyond good or evil"}, { "s.ho": "t"} ]
+// https://developers.exlibrisgroup.com/summon/apis/searchapi/query/
+let query = [ { "s.q": "latinx"}, { "s.fvf": "IsFullText,true,f"}, { "s.ho": "t"} ]
 
 let options = {
     url: `${api.url(query)}`,
