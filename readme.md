@@ -22,7 +22,7 @@ Summon has an official API that requires obtaining an API key and creating a spe
 
 Luckily, Summon also seems to have an easy-to-use, undocumented API that does not require authorization. One can simply fill a query into the `q` parameter of the URL https://cca.summon.serialssolutions.com/api/search?ho=f&q= and receive a detailed JSON response. It appears that the limitation of this API is that it will reply "Retry later" if used too many times in succession; I was able to work around this by adding a one second delay between each HTTP request.
 
-`node src/get-query-data.js`
+`node src/get-query-results.js`
 
 ## check links of top ten results
 
