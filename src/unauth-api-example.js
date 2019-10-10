@@ -1,6 +1,10 @@
+// weirdly there's this undocumented, unauthenticated API but its results seem
+// slightly different from the authenticated one?
 const fs = require('fs')
 const qs = require('querystring')
+
 const request = require('request')
+
 const queries = JSON.parse(fs.readFileSync('data/queries.json').toString())
 // ho=t -> "holdings only" mode e.g. don't show results outside our collection
 const baseUrl = 'https://cca.summon.serialssolutions.com/api/search?ho=t&q='
