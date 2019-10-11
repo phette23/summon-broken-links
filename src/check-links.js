@@ -35,7 +35,7 @@ let link_check_schema = {
         destination: {
             description: 'Final URL that you end up on: ',
             type: 'string',
-            // required: true
+            required: true
         },
         resolves_to_full_text: {
             description: 'Do you end up with the full text? (y/n) ',
@@ -55,10 +55,12 @@ let link_check_schema = {
             // only ask if we didn't already get full text
             ask: () => !prompt.history('resolves_to_full_text').value
         },
-        // notes: {
-        //     description: 'Notes (optional): ',
-        //     type: 'string'
-        // }
+        notes: {
+            description: 'Notes (optional): ',
+            type: 'string',
+            // don't ask for notes when the link just works as intended
+            ask: () => !prompt.history('resolves_to_full_text').value
+        }
     }
 };
 
@@ -101,12 +103,11 @@ function askQuestions(documents, index) {
         // ask questions about document
         doc = documents[index]
         print(`Document no. ${index + 1} of ${documents.length}`)
-        print(chalk.cyan.bold(striptags(doc.full_title)))
-        if (doc.authors && doc.authors.length) {
-            print(chalk.cyan.bold(`Authors: ${doc.authors.map(author => author.fullname).join(', ')}.`))
-        }
-        // give user two seconds to read document title, then open its URL
+        print(chalk.cyan.bold(striptags(doc.Title)))
+        if (doc.Author) print(chalk.cyan.bold(`Author(s): ${doc.Author.join('; ')}.`))
+        // give user two seconds to read document title, then open its Summon link
         setTimeout(() => opn(doc.link), 2000)
+        // what about doc.URI array?
         prompt.get(link_check_schema, (err, answers) => {
             // once we have answers, record in results
             doc.link_check = answers
