@@ -93,7 +93,7 @@ function summarize(docs) {
 fs.readFile('data/anonymized-analysis.json', 'utf8', (err, data) => {
     if (err) throw err
     let summary = summarize(JSON.parse(data))
-    fs.writeFile(outfile, stringify(data), (err) => {
+    fs.writeFile(outfile, stringify(summary), (err) => {
         if (err) throw err
         console.log('Summary statistics:')
         console.log(stringify(summary))
