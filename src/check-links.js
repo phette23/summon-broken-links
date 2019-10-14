@@ -21,13 +21,27 @@ let convertYNToBoolean = (value) => {
 let results = []
 let filename = ''
 
+// prompt questions - JSON filename
+let filename_schema = {
+    properties: {
+        filename: {
+            description: 'What numbered JSON file in data/results would you like to check?',
+            type: 'string',
+            message: 'Please type only the integer, not the path or ".json" extension.',
+            pattern: /^\d*$/,
+            before: (value) => `data/results/${value}.json`,
+            required: true
+        }
+    }
+}
+
 // prompt questions - continue analyzing files or stop
 let continue_schema = {
     properties: {
         continue: {
             description: 'Do you want to analyze another file?',
             type: 'string',
-            message: 'please type "y" for "yes" or "n" for "no"',
+            message: 'Please type "y" for "yes" or "n" for "no".',
             pattern: yn_regex,
             before: convertYNToBoolean,
             required: true
@@ -74,19 +88,16 @@ function getData() {
     // clear out previous global values
     results = []
     filename = ''
-    let data = {}
     // ask what file we're analyzing
-    prompt.get(['filename'], (err, answers) => {
+    prompt.get(filename_schema, (err, answers) => {
         if (err) throw err
         filename = answers.filename
-        try {
-            data = JSON.parse(fs.readFileSync(filename))
-        } catch (e) {
-            print(`Error opening file "${filename}". Check that the path is correct.`)
-            throw e;
-        }
-        print(`Received ${data.documents.length} results for query [ ${data.query.textQueries[0].textQuery} ]`)
-        return askQuestions(data.documents)
+        fs.readFile(filename, 'utf8', (err, data) => {
+            if (err) throw err
+            data = JSON.parse(data)
+            print(`Received ${data.documents.length} results for query [ ${data.query.textQueries[0].textQuery} ]`)
+            return askQuestions(data.documents)
+        })
     })
 }
 
@@ -109,7 +120,7 @@ function askQuestions(documents, index=0) {
         doc = documents[index]
         print(`Document no. ${index + 1} of ${documents.length}`)
         print(chalk.cyan.bold(striphtml(doc.Title)))
-        if (doc.Author) print(chalk.cyan.bold(`Author(s): ${doc.Author.join('; ')}.`))
+        if (doc.Author) print(chalk.cyan.bold(`Author(s): ${striphtml(doc.Author.join('; '))}.`))
         // give user two seconds to read document title, then open its Summon link
         setTimeout(() => opn(doc.link), 2000)
         prompt.get(link_check_schema, (err, answers) => {
@@ -124,5 +135,4 @@ function askQuestions(documents, index=0) {
 prompt.message = ''
 prompt.delimiter = ''
 prompt.start()
-print('What file do you want to start with? (e.g. data/results/1.json)')
 getData()

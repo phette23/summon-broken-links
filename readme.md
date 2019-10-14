@@ -33,10 +33,12 @@ Once we have a series of search results, we can systematically review each to se
 
 - what URL did you end up on?
 - was it the full text?
-- if not, can you _eventually_ navigate to the full text? This might involve browsing from an index to a specific article or rephrasing a search query. It is hard to categorize or quantity these search efforts but my basic guideline was to try to locate full text _from where Summon took me_ e.g. not restarting with Google or another external search tool
+- if not, can you _eventually_ navigate to the full text?
 - if you weren't taken directly to the full text, optionally fill in some notes on what happened
 
 These data are embedded into the original search result record then saved to JSON files in data/analysis analogous to the results files.
+
+For all but the first (URL) question, there is an aspect of judgment. Even answering "is this the full text?" is not so straightforward. Often, an OpenURL link will resolve not directly to a single article but to a query within a database. If there was only one result and it was the desired article, I counted these sorts of links as successfully retrieving full text, even if in actuality users must take one additional step to read the resource. "Eventually navigating to the full text" is obviously even more subjective and might vary from easily browsing from an index to a specific article to repeatedly rephrasing a search query until it yields useful results. It is hard to categorize or quantity these search efforts but my basic guideline was to try to locate full text _from where Summon took me_, e.g. not restarting with Google or another external search tool, while spending no more than five minutes editing my queries. I suspect that most library users would not put even that much effort into locating a source but that is a separate study.
 
 `node src/check-links.js`
 
