@@ -95,6 +95,7 @@ function askQuestions(documents, index=0) {
     if (index === documents.length) {
         let analysis_file = filename.replace('results', 'analysis')
         print(chalk.bold(`Finished checking documents in ${filename}`))
+        print(`${results.filter(d => !d.link_check.resolves_to_full_text).length} of ${results.length} links were broken.`)
         fs.writeFile(analysis_file, stringify(results), (err) => {
             if (err) throw err
             print(`Wrote results to ${analysis_file}`)
