@@ -7,6 +7,12 @@ const striptags = require("striptags")
 
 const stringify = require("./stringify.js")
 const print = console.log
+
+// striptags only strips valid HTML tags & Summon uses <h> as a "highlight" tag
+let striphtml = (str) => {
+    str = striptags(str)
+    return str.replace(/<\/?h>/g, '')
+}
 // make prompt properties such that typing y/n -> true/false values
 let yn_regex = /^[yn]$/
 let convertYNToBoolean = (value) => {
@@ -101,7 +107,7 @@ function askQuestions(documents, index=0) {
         // ask questions about document
         doc = documents[index]
         print(`Document no. ${index + 1} of ${documents.length}`)
-        print(chalk.cyan.bold(striptags(doc.Title)))
+        print(chalk.cyan.bold(striphtml(doc.Title)))
         if (doc.Author) print(chalk.cyan.bold(`Author(s): ${doc.Author.join('; ')}.`))
         // give user two seconds to read document title, then open its Summon link
         setTimeout(() => opn(doc.link), 2000)
