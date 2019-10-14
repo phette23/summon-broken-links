@@ -48,4 +48,10 @@ Chunking up analysis by different files makes it easier to review the hundreds o
 
 `node src/concat-json.js`
 
-_to be continued..._
+and then remove specific publication data to anonymize them
+
+`node src/anonymize.js`
+
+resulting in a file data/anonymized-analysis.json that contains generic record information and the outcome of our link check. One last step is to generate summary statistics **(WIP)**:
+
+`node src/summary-stats.js`
