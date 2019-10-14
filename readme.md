@@ -3,8 +3,7 @@
 - select queries to study
 - execute queries, save data
 - check links of top ten results
-- individually analyze/classify link breakages
-- compile summary statistics
+- classify link breakages & compile summary statistics
 
 ## select queries to study
 
@@ -20,7 +19,9 @@ Note that, by only inspecting search _terms_, we do lose the context of a comple
 
 ## execute queries, save data
 
-Summon has an official API that requires obtaining an API key and creating a specially formatted hash digest for use in an HTTP header. I spent a significant amount of time trying to get this to work, only to be ultimately informed by support that their documentation was outdated and, in some cases, simply wrong. Some pieces that needed to be noted: the query string must be sorted alphabetically when you construct the hash digest and you must use a `s.q` parameter for the query text and not "q" like some of their examples use (all query parameters seem to have a "s." prefix).
+Date query data was collected: October 10, 2019.
+
+Summon has an official API that requires obtaining an API key and creating a specially formatted hash digest for use in an HTTP header. I spent a significant amount of time trying to create authenticated API requests, only to be ultimately informed by support that their documentation was outdated and, in some cases, simply wrong. Some pieces that needed to be noted: the query string must be sorted alphabetically when you construct the hash digest and you must use a `s.q` parameter for the query text and not "q" like some of the documentation's examples use (all query parameters appear to have a "s." prefix).
 
 As I tested initially, a decent amount of results were links to our catalog and a very small number were citation-only links not intended to yield full text. For my purposes, I chose to remove these from my search results by adding both the "[holdings only](https://developers.exlibrisgroup.com/summon/apis/SearchAPI/Query/Parameters/HoldingsOnly/)" and "full text online" (a [facet value filter](https://developers.exlibrisgroup.com/summon/apis/SearchAPI/Query/Parameters/FacetValueFilter/) of "IsFullText,true,f") parameters. The script I wrote iterates over all search terms in data/queries.json and saves the result sets to data/analysis in numbered files starting from 0.
 
@@ -28,7 +29,7 @@ As I tested initially, a decent amount of results were links to our catalog and 
 
 ## check links of top ten results
 
-Once we have a series of search results, we can systematically review each to see if their links resolve. The search result records have a `link` field that seems to be what Summon uses itself, though there are other links in the record that one could use (e.g. a `URI` array). I chose to use `link` and wrote an interactive script which iterates over search results in a given JSON file, telling you some basic metadata while opening the `link` in a browser for review. The script then asks you a few questions:
+Once we have a series of search results, we can systematically review each to see if their links resolve successfully. The search result records contain `link` fields that seem to be what Summon uses itself, though there are other URLs in the records which one could use (e.g. a `URI` array and an `openUrl` that can be passed to our link resolver). I chose to use `link` and wrote an interactive script which iterates over search results in a given JSON file, printing some basic metadata while opening the `link` in a web browser for review. The script then asks a few questions:
 
 - what URL did you end up on?
 - was it the full text?
@@ -39,8 +40,10 @@ These data are embedded into the original search result record then saved to JSO
 
 `node src/check-links.js`
 
-## individually analyze/classify link breakages
+## classify link breakages & compile summary statistics
+
+Chunking up analysis by different files makes it easier to review the hundreds of links ten at a time but also leads to our data spread across several files. We can concatenate these with
 
 `node src/concat-json.js`
 
-## compile summary statistics
+_to be continued..._
