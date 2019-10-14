@@ -7,7 +7,7 @@ const striptags = require("striptags")
 
 const stringify = require("./stringify.js")
 const print = console.log
-// the help make prompt properties such that typing y/n -> true/false values
+// make prompt properties such that typing y/n -> true/false values
 let yn_regex = /^[yn]$/
 let convertYNToBoolean = (value) => {
     return value === 'n' ? false : true
@@ -15,7 +15,7 @@ let convertYNToBoolean = (value) => {
 let results = []
 let filename = ''
 
-// prompt questions - continue analying files or stop
+// prompt questions - continue analyzing files or stop
 let continue_schema = {
     properties: {
         continue: {
@@ -79,23 +79,21 @@ function getData() {
             print(`Error opening file "${filename}". Check that the path is correct.`)
             throw e;
         }
-        print(`Received ${data.documents.length} results for query [ ${data.query.original_query} ]`)
+        print(`Received ${data.documents.length} results for query [ ${data.query.textQueries[0].textQuery} ]`)
         return askQuestions(data.documents)
     })
 }
 
-function askQuestions(documents, index) {
-    // start at the top if we don't know where we are
-    if (index === undefined) index = 0
+function askQuestions(documents, index=0) {
     // we're done; write results to file & ask if we should continue
     if (index === documents.length) {
+        let analysis_file = filename.replace('results', 'analysis')
         print(chalk.bold(`Finished checking documents in ${filename}`))
-        fs.writeFile(`${filename.replace('results', 'analysis')}`, stringify(results), (err) => {
+        fs.writeFile(analysis_file, stringify(results), (err) => {
             if (err) throw err
-            print(`wrote results to ${filename.replace('results', 'analysis')}`)
+            print(`Wrote results to ${analysis_file}`)
             prompt.get(continue_schema, (err, answers) => {
                 if (!answers.continue) process.exit(0)
-                results = []
                 return getData()
             })
         })
@@ -107,7 +105,6 @@ function askQuestions(documents, index) {
         if (doc.Author) print(chalk.cyan.bold(`Author(s): ${doc.Author.join('; ')}.`))
         // give user two seconds to read document title, then open its Summon link
         setTimeout(() => opn(doc.link), 2000)
-        // what about doc.URI array?
         prompt.get(link_check_schema, (err, answers) => {
             // once we have answers, record in results
             doc.link_check = answers
