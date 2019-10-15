@@ -15,14 +15,14 @@ const outfile = 'data/summary-statistics.json'
 function percentTrue(property, array) {
     let filter = property
     if (typeof property === 'string') {
-        filter = i => !!i[property]
+        filter = i => i[property]
     }
     let numTrue = array.filter(filter).length
-    return ((numTrue / array.length) * 100).toFixed(2)
+    return ((numTrue / array.length) * 100).toFixed(2) + '%'
 }
 
 /**
- * a lot of record properties are arrays, this unpacks them & find all the unique
+ * a lot of record properties are arrays, this unpacks them to find all unique
  * values that each array takes on
  * @param {string} property - property name
  * @param {array} array - array of items where i[property] _is also an array_
@@ -53,33 +53,39 @@ function summarize(docs) {
     let working = docs.filter(d => d.link_check.resolves_to_full_text)
     let summary = {
         "All Documents": {
+            "count": docs.length,
             "hasFullText": percentTrue("hasFullText", docs),
             "inHoldings": percentTrue("inHoldings", docs),
             "isFullTextHit": percentTrue("isFullTextHit", docs),
-            "IsOpenAccess": percentTrue("IsOpenAccess", docs),
-            "IsPeerReviewed": percentTrue("IsPeerReviewed", docs),
+            // several record properties are these pseudo-booleans that are
+            // actually single-entry arrays of strings (:rage:), like
+            // "IsPeerReviewed": [ "false" ]
+            "IsOpenAccess": percentTrue(d => d.IsOpenAccess && d.IsOpenAccess[0] === "true", docs),
+            "IsPeerReviewed": percentTrue(d => d.IsPeerReviewed[0] === "true", docs),
             "isPrint": percentTrue("isPrint", docs),
-            "IsScholarly": percentTrue("IsScholarly", docs),
+            "IsScholarly": percentTrue(d => d.IsScholarly[0] === "true", docs),
             "Link Works": percentTrue(d => d.link_check.resolves_to_full_text, docs),
         },
         "Broken Links": {
+            "count": broken.length,
             "hasFullText": percentTrue("hasFullText", broken),
             "inHoldings": percentTrue("inHoldings", broken),
             "isFullTextHit": percentTrue("isFullTextHit", broken),
-            "IsOpenAccess": percentTrue("IsOpenAccess", broken),
-            "IsPeerReviewed": percentTrue("IsPeerReviewed", broken),
+            "IsOpenAccess": percentTrue(d => d.IsOpenAccess && d.IsOpenAccess[0] === "true", broken),
+            "IsPeerReviewed": percentTrue(d => d.IsPeerReviewed[0] === "true", broken),
             "isPrint": percentTrue("isPrint", broken),
-            "IsScholarly": percentTrue("IsScholarly", broken),
+            "IsScholarly": percentTrue(d => d.IsScholarly[0] === "true", broken),
             "Can Find Full Text": percentTrue(d => d.link_check.full_text, broken),
         },
         "Working Links": {
+            "count": working.length,
             "hasFullText": percentTrue("hasFullText", working),
             "inHoldings": percentTrue("inHoldings", working),
             "isFullTextHit": percentTrue("isFullTextHit", working),
-            "IsOpenAccess": percentTrue("IsOpenAccess", working),
-            "IsPeerReviewed": percentTrue("IsPeerReviewed", working),
+            "IsOpenAccess": percentTrue(d => d.IsOpenAccess && d.IsOpenAccess[0] === "true", working),
+            "IsPeerReviewed": percentTrue(d => d.IsPeerReviewed[0] === "true", working),
             "isPrint": percentTrue("isPrint", working),
-            "IsScholarly": percentTrue("IsScholarly", working),
+            "IsScholarly": percentTrue(d => d.IsScholarly[0] === "true", working),
         },
     }
     // console.log(enumerate("ContentType", docs))
