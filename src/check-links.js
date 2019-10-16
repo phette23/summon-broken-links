@@ -121,6 +121,7 @@ function askQuestions(documents, index=0) {
         print(`Document no. ${index + 1} of ${documents.length}`)
         print(chalk.cyan.bold(striphtml(doc.Title)))
         if (doc.Author) print(chalk.cyan.bold(`Author(s): ${striphtml(doc.Author.join('; '))}.`))
+        print(chalk.blue((`https://cca.summon.serialssolutions.com/#!/search?bookMark=${doc.BookMark[0]}`)))
         // give user two seconds to read document title, then open its Summon link
         setTimeout(() => opn(doc.link), 2000)
         prompt.get(link_check_schema, (err, answers) => {
