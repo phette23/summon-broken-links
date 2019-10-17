@@ -88,9 +88,14 @@ function summarize(docs) {
             "IsScholarly": percentTrue(d => d.IsScholarly[0] === "true", working),
         },
     }
+    // only 2 models currently (DirectLink & OpenURL) but this will works if a
+    // new one is introduced
+    enumerate("LinkModel", docs).forEach(model => {
+        summary["All Documents"][`${model} Link`] = percentTrue(d => d.LinkModel[0] === model, docs)
+        summary["Broken Links"][`${model} Link`] = percentTrue(d => d.LinkModel[0] === model, broken)
+        summary["Working Links"][`${model} Link`] = percentTrue(d => d.LinkModel[0] === model, working)
+    })
     // console.log(enumerate("ContentType", docs))
-    // console.log(enumerate("LinkModel", docs))
-    // console.log(enumerate("PublicationDecade", docs))
     // console.log(enumerate("SourceID", docs))
     // console.log(enumerate("SourceType", docs))
     return summary
