@@ -17,6 +17,7 @@ function readJSON (file, callback) {
 }
 
 function combineAndWrite (err, result) {
+    if (err) throw err
     let output = []
     // result is an array of arrays
     result.forEach(arr => output.push(...arr))
@@ -29,7 +30,7 @@ function combineAndWrite (err, result) {
 
 fs.readdir(dir, (err, files) => {
     if (err) throw err
-    // don't add the output file to itself & infinitely recurse
-    files = files.filter(name => !name.match(outfile))
+    // don't add the output file to itself & infinitely recurse, skip non-JSON files
+    files = files.filter(name => !name.match(outfile) && name.match(/\.json$/))
     async.map(files, readJSON, combineAndWrite)
 })
