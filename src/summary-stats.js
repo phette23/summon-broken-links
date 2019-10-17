@@ -9,7 +9,7 @@ const outfile = 'data/summary-statistics.json'
  * @param {string|function} property - either the property name to run a boolean
  * check on or a filter method to run over the array e.g. array.filter(property)
  * @param {array} array - array of items to check
- * @returns {float} percentage of array items for which item[property] is true
+ * @returns {string} percentage of array items for which item[property] is true
  * or (in the function form) property(item) returns true
  */
 function percentTrue(property, array) {
@@ -23,8 +23,8 @@ function percentTrue(property, array) {
 
 /**
  * a lot of record properties are arrays, this unpacks them to find all unique
- * values that each array takes on
- * @param {string} property - property name
+ * values that their entries take on
+ * @param {string} property - Summon record property name
  * @param {array} array - array of items where i[property] _is also an array_
  * @returns {array} list of all the unique values that the array's items[property]
  * arrays contain
@@ -40,17 +40,20 @@ function enumerate(property, array) {
 }
 
 /**
- * @TODO summaries for these data points:
- - ContentType
- - LinkModel
- - PublicationDecade (don't need to do PublicationCentury)
- - SourceID
- - SourceType
- - link_check.destination (domain of result URL)
+ * Summarize a set of analysis documents.
+ * @param {array} docs - Summon documents
+ * @returns {object} a descriptive object summarizing the properties of the docs
+ * with particular attention to their link_check.resolves_to_full_text field
  */
 function summarize(docs) {
-    let broken = docs.filter(d => !d.link_check.resolves_to_full_text)
-    let working = docs.filter(d => d.link_check.resolves_to_full_text)
+    // flatten link_check to make code below a little cleaner/easier
+    docs = docs.map(d => {
+        Object.keys(d.link_check).forEach(f => d[`link_check_${f}`] = d.link_check[f])
+        return d
+    })
+    // subsets of just the docs with broken or working links
+    let broken = docs.filter(d => !d.link_check_resolves_to_full_text)
+    let working = docs.filter(d => d.link_check_resolves_to_full_text)
     let summary = {
         "All Documents": {
             "count": docs.length,
@@ -64,7 +67,7 @@ function summarize(docs) {
             "IsPeerReviewed": percentTrue(d => d.IsPeerReviewed[0] === "true", docs),
             "isPrint": percentTrue("isPrint", docs),
             "IsScholarly": percentTrue(d => d.IsScholarly[0] === "true", docs),
-            "Link Works": percentTrue(d => d.link_check.resolves_to_full_text, docs),
+            "Link Works": percentTrue("link_check_resolves_to_full_text", docs),
         },
         "Broken Links": {
             "count": broken.length,
@@ -75,7 +78,7 @@ function summarize(docs) {
             "IsPeerReviewed": percentTrue(d => d.IsPeerReviewed[0] === "true", broken),
             "isPrint": percentTrue("isPrint", broken),
             "IsScholarly": percentTrue(d => d.IsScholarly[0] === "true", broken),
-            "Can Find Full Text": percentTrue(d => d.link_check.full_text, broken),
+            "Can Find Full Text": percentTrue("link_check_full_text", broken),
         },
         "Working Links": {
             "count": working.length,
@@ -88,16 +91,27 @@ function summarize(docs) {
             "IsScholarly": percentTrue(d => d.IsScholarly[0] === "true", working),
         },
     }
-    // only 2 models currently (DirectLink & OpenURL) but this will works if a
-    // new one is introduced
-    enumerate("LinkModel", docs).forEach(model => {
+    // only 2 link models currently (DirectLink & OpenURL) but this will continue
+    // to  work if a new one is introduced
+    enumerate("LinkModel", docs).sort().forEach(model => {
         summary["All Documents"][`${model} Link`] = percentTrue(d => d.LinkModel[0] === model, docs)
         summary["Broken Links"][`${model} Link`] = percentTrue(d => d.LinkModel[0] === model, broken)
         summary["Working Links"][`${model} Link`] = percentTrue(d => d.LinkModel[0] === model, working)
     })
-    // console.log(enumerate("ContentType", docs))
-    // console.log(enumerate("SourceID", docs))
-    // console.log(enumerate("SourceType", docs))
+    // for these more descriptive fields, let's see what percent of links break
+    // for each of their values using enumerate()
+    let procValues = (field) => {
+        summary[field] = {}
+        enumerate(field, docs).sort().forEach(type => {
+            typeDocs = docs.filter(doc => doc[field].includes(type))
+            summary[field][type] = {
+                count: typeDocs.length,
+                "Link Works": percentTrue("link_check_resolves_to_full_text", typeDocs)
+            }
+        })
+    }
+    let fields = ["ContentType", "SourceID", "SourceType", "link_check_destination"]
+    fields.forEach(f => procValues(f))
     return summary
 }
 
@@ -106,8 +120,8 @@ fs.readFile('data/anonymized-analysis.json', 'utf8', (err, data) => {
     let summary = summarize(JSON.parse(data))
     fs.writeFile(outfile, stringify(summary), (err) => {
         if (err) throw err
+        console.log(`Wrote summary statistics to ${outfile}`)
         console.log('Summary statistics:')
         console.log(stringify(summary))
-        console.log(`Wrote summary statistics to ${outfile}`)
     })
 })

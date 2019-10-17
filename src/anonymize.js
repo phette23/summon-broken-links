@@ -19,8 +19,6 @@ function anonymize(doc) {
         "IsScholarly",
         "LinkModel",
         "PublicationCentury",
-        // we could probably copy this too but century/decade is enough date info
-        // "PublicationDate_xml",
         "PublicationDecade",
         "SourceID",
         "SourceType",

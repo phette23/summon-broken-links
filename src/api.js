@@ -2,7 +2,7 @@ const crypto = require('crypto')
 
 const key = require('./auth.json').key
 let accept = 'application/json'
-let accessId = 'cca'
+let accessId = 'cca' // @TODO institution-specific, abstract this out
 let host = 'api.summon.serialssolutions.com'
 let path = '/2.0.0/search'
 
