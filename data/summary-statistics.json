@@ -1,0 +1,504 @@
+{
+	"All Documents": {
+		"count": 469,
+		"hasFullText": "98.51%",
+		"isFullTextHit": "8.10%",
+		"IsOpenAccess": "10.87%",
+		"IsPeerReviewed": "48.40%",
+		"IsScholarly": "55.65%",
+		"Link Works": "78.46%",
+		"DirectLink Link": "45.42%",
+		"OpenURL Link": "54.58%"
+	},
+	"Broken Links": {
+		"count": 101,
+		"hasFullText": "93.07%",
+		"isFullTextHit": "4.95%",
+		"IsOpenAccess": "6.93%",
+		"IsPeerReviewed": "31.68%",
+		"IsScholarly": "46.53%",
+		"Can Find Full Text": "54.46%",
+		"DirectLink Link": "4.95%",
+		"OpenURL Link": "95.05%"
+	},
+	"Working Links": {
+		"count": 368,
+		"hasFullText": "100.00%",
+		"isFullTextHit": "8.97%",
+		"IsOpenAccess": "11.96%",
+		"IsPeerReviewed": "52.99%",
+		"IsScholarly": "58.15%",
+		"DirectLink Link": "56.52%",
+		"OpenURL Link": "43.48%"
+	},
+	"ContentType": {
+		"Book": {
+			"count": 3,
+			"Link Works": "0.00%"
+		},
+		"Book Chapter": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"Book Review": {
+			"count": 26,
+			"Link Works": "73.08%"
+		},
+		"Dissertation": {
+			"count": 2,
+			"Link Works": "100.00%"
+		},
+		"Journal Article": {
+			"count": 273,
+			"Link Works": "82.05%"
+		},
+		"Magazine Article": {
+			"count": 21,
+			"Link Works": "42.86%"
+		},
+		"Newspaper Article": {
+			"count": 82,
+			"Link Works": "69.51%"
+		},
+		"Reference": {
+			"count": 42,
+			"Link Works": "95.24%"
+		},
+		"Report": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"Research Guide": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"Trade Publication Article": {
+			"count": 13,
+			"Link Works": "100.00%"
+		},
+		"Web Resource": {
+			"count": 5,
+			"Link Works": "40.00%"
+		},
+		"eBook": {
+			"count": 9,
+			"Link Works": "66.67%"
+		}
+	},
+	"LinkModel": {
+		"DirectLink": {
+			"count": 213,
+			"Link Works": "97.65%"
+		},
+		"OpenURL": {
+			"count": 256,
+			"Link Works": "62.50%"
+		}
+	},
+	"SourceID": {
+		"askewsholts": {
+			"count": 3,
+			"Link Works": "100.00%"
+		},
+		"biomedcentral": {
+			"count": 7,
+			"Link Works": "85.71%"
+		},
+		"bioone": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"bloomsbury": {
+			"count": 2,
+			"Link Works": "50.00%"
+		},
+		"bmj": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"britannica": {
+			"count": 28,
+			"Link Works": "100.00%"
+		},
+		"cairn": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"cambridge": {
+			"count": 4,
+			"Link Works": "100.00%"
+		},
+		"cca": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"chadwyckhealey": {
+			"count": 41,
+			"Link Works": "90.24%"
+		},
+		"chongqing": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"cleo": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"cristin": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"crossref": {
+			"count": 163,
+			"Link Works": "84.66%"
+		},
+		"dawson": {
+			"count": 2,
+			"Link Works": "50.00%"
+		},
+		"doaj": {
+			"count": 27,
+			"Link Works": "92.59%"
+		},
+		"dovepress": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"elsevier": {
+			"count": 14,
+			"Link Works": "71.43%"
+		},
+		"emerald": {
+			"count": 3,
+			"Link Works": "100.00%"
+		},
+		"gale": {
+			"count": 176,
+			"Link Works": "80.11%"
+		},
+		"hal": {
+			"count": 6,
+			"Link Works": "100.00%"
+		},
+		"hathitrust": {
+			"count": 3,
+			"Link Works": "0.00%"
+		},
+		"highwire": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"idealonline": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"ieee": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"iet": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"igpublishing": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"informaworld": {
+			"count": 6,
+			"Link Works": "100.00%"
+		},
+		"intellect": {
+			"count": 2,
+			"Link Works": "100.00%"
+		},
+		"jstor": {
+			"count": 36,
+			"Link Works": "83.33%"
+		},
+		"kiss": {
+			"count": 2,
+			"Link Works": "0.00%"
+		},
+		"mit": {
+			"count": 4,
+			"Link Works": "75.00%"
+		},
+		"narcis": {
+			"count": 3,
+			"Link Works": "100.00%"
+		},
+		"nature": {
+			"count": 5,
+			"Link Works": "100.00%"
+		},
+		"nlnz": {
+			"count": 4,
+			"Link Works": "25.00%"
+		},
+		"nrf": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"oapen": {
+			"count": 2,
+			"Link Works": "100.00%"
+		},
+		"osti": {
+			"count": 7,
+			"Link Works": "100.00%"
+		},
+		"oup": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"persee": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"projectmuse": {
+			"count": 32,
+			"Link Works": "75.00%"
+		},
+		"proquest": {
+			"count": 243,
+			"Link Works": "86.83%"
+		},
+		"pubmed": {
+			"count": 56,
+			"Link Works": "96.43%"
+		},
+		"pubmedcentral": {
+			"count": 12,
+			"Link Works": "91.67%"
+		},
+		"rmit": {
+			"count": 3,
+			"Link Works": "33.33%"
+		},
+		"sage": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"springer": {
+			"count": 26,
+			"Link Works": "96.15%"
+		},
+		"ssoar": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"swepub": {
+			"count": 4,
+			"Link Works": "100.00%"
+		},
+		"wageningen": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"wiley": {
+			"count": 3,
+			"Link Works": "100.00%"
+		}
+	},
+	"SourceType": {
+		"Aggregation Database": {
+			"count": 382,
+			"Link Works": "79.32%"
+		},
+		"Enrichment Source": {
+			"count": 27,
+			"Link Works": "96.30%"
+		},
+		"Index Database": {
+			"count": 98,
+			"Link Works": "89.80%"
+		},
+		"Institutional Repository": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"Open Access Repository": {
+			"count": 37,
+			"Link Works": "83.78%"
+		},
+		"Open Website": {
+			"count": 28,
+			"Link Works": "89.29%"
+		},
+		"Other": {
+			"count": 10,
+			"Link Works": "20.00%"
+		},
+		"Publisher": {
+			"count": 174,
+			"Link Works": "83.91%"
+		}
+	},
+	"link_check_destination": {
+		"academic.eb.com": {
+			"count": 28,
+			"Link Works": "100.00%"
+		},
+		"advance.lexis.com": {
+			"count": 89,
+			"Link Works": "62.92%"
+		},
+		"arqarqt.revistas.csic.es": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"bmcbioinformatics.biomedcentral.com": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"bmcgenomics.biomedcentral.com": {
+			"count": 5,
+			"Link Works": "80.00%"
+		},
+		"bmcmedresmethodol.biomedcentral.com": {
+			"count": 2,
+			"Link Works": "100.00%"
+		},
+		"bmcophthalmol.biomedcentral.com": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"bmcpediatr.biomedcentral.com": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"bmcpsychiatry.biomedcentral.com": {
+			"count": 2,
+			"Link Works": "100.00%"
+		},
+		"bmcpublichealth.biomedcentral.com": {
+			"count": 2,
+			"Link Works": "100.00%"
+		},
+		"books.openedition.org": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"escholarship.org": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"ey7mr5fu9x.search.serialssolutions.com": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"go.gale.com": {
+			"count": 28,
+			"Link Works": "78.57%"
+		},
+		"jell.ellak.or.kr": {
+			"count": 4,
+			"Link Works": "0.00%"
+		},
+		"libguides.cca.edu": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"library.cca.edu": {
+			"count": 7,
+			"Link Works": "0.00%"
+		},
+		"link.springer.com": {
+			"count": 14,
+			"Link Works": "92.86%"
+		},
+		"online.liverpooluniversitypress.co.uk": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"openurl.ebscohost.com": {
+			"count": 6,
+			"Link Works": "0.00%"
+		},
+		"read.dukeupress.edu": {
+			"count": 2,
+			"Link Works": "100.00%"
+		},
+		"revistascientificas.us.es": {
+			"count": 2,
+			"Link Works": "0.00%"
+		},
+		"search.ebscohost.com": {
+			"count": 2,
+			"Link Works": "0.00%"
+		},
+		"search.proquest.com": {
+			"count": 195,
+			"Link Works": "87.69%"
+		},
+		"stpaulcenter.com": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"thresholds.mit.edu": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"web.a.ebscohost.com": {
+			"count": 9,
+			"Link Works": "100.00%"
+		},
+		"web.b.ebscohost.com": {
+			"count": 15,
+			"Link Works": "93.33%"
+		},
+		"www.bloomsburydesignlibrary.com": {
+			"count": 5,
+			"Link Works": "80.00%"
+		},
+		"www.dida.unifi.it": {
+			"count": 3,
+			"Link Works": "0.00%"
+		},
+		"www.doabooks.org": {
+			"count": 2,
+			"Link Works": "100.00%"
+		},
+		"www.gla.ac.uk": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"www.idildergisi.com": {
+			"count": 4,
+			"Link Works": "100.00%"
+		},
+		"www.jstor.org": {
+			"count": 17,
+			"Link Works": "94.12%"
+		},
+		"www.laidlaw.ac.nz": {
+			"count": 2,
+			"Link Works": "0.00%"
+		},
+		"www.mitpressjournals.org": {
+			"count": 2,
+			"Link Works": "100.00%"
+		},
+		"www.nature.com": {
+			"count": 4,
+			"Link Works": "100.00%"
+		},
+		"www.oxfordreference.com": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"www.persee.fr": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"www.sciencedirect.com": {
+			"count": 3,
+			"Link Works": "100.00%"
+		},
+		"www.ssoar.info": {
+			"count": 1,
+			"Link Works": "100.00%"
+		}
+	}
+}
