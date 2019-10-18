@@ -1,7 +1,6 @@
 const fs = require("fs")
 
 const stringify = require("./stringify.js")
-
 const outfile = 'data/anonymized-analysis.json'
 
 function anonymize(doc) {

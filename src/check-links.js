@@ -5,6 +5,7 @@ const opn = require("opn")
 const prompt = require("prompt")
 const striptags = require("striptags")
 
+const config = require('../config.json')
 const stringify = require("./stringify.js")
 const print = console.log
 
@@ -121,8 +122,7 @@ function askQuestions(documents, index=0) {
         print(`Document no. ${index + 1} of ${documents.length}`)
         print(chalk.cyan.bold(striphtml(doc.Title)))
         if (doc.Author) print(chalk.cyan.bold(`Author(s): ${striphtml(doc.Author.join('; '))}.`))
-        // @TODO institution-specific, should have an access code var in a config file
-        print(chalk.blue((`https://cca.summon.serialssolutions.com/#!/search?bookMark=${doc.BookMark[0]}`)))
+        print(chalk.blue((`https://${config.org}.summon.serialssolutions.com/#!/search?bookMark=${doc.BookMark[0]}`)))
         // give user two seconds to read document title, then open its Summon link
         setTimeout(() => opn(doc.link), 2000)
         prompt.get(link_check_schema, (err, answers) => {

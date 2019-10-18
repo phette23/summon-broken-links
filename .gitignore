@@ -1,4 +1,6 @@
 node_modules
+config.json
 data/*
 !data/.gitkeep
-auth.json
+!data/anonymized-analysis.json
+!data/summary-statistics.json

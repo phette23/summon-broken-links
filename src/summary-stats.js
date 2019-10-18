@@ -1,7 +1,6 @@
 const fs = require("fs")
 
 const stringify = require("./stringify.js")
-
 const outfile = 'data/summary-statistics.json'
 
 /**
@@ -55,39 +54,42 @@ function summarize(docs) {
     let broken = docs.filter(d => !d.link_check_resolves_to_full_text)
     let working = docs.filter(d => d.link_check_resolves_to_full_text)
     let summary = {
+        // For our purposes, inHoldings is just 100% because holdings-only mode
+        // was active & isPrint is a trace amount because the "full text online"
+        // facet was active. I've commented them out.
         "All Documents": {
             "count": docs.length,
             "hasFullText": percentTrue("hasFullText", docs),
-            "inHoldings": percentTrue("inHoldings", docs),
+            // "inHoldings": percentTrue("inHoldings", docs),
             "isFullTextHit": percentTrue("isFullTextHit", docs),
             // several record properties are these pseudo-booleans that are
             // actually single-entry arrays of strings (:rage:), like
             // "IsPeerReviewed": [ "false" ]
             "IsOpenAccess": percentTrue(d => d.IsOpenAccess && d.IsOpenAccess[0] === "true", docs),
             "IsPeerReviewed": percentTrue(d => d.IsPeerReviewed[0] === "true", docs),
-            "isPrint": percentTrue("isPrint", docs),
+            // "isPrint": percentTrue("isPrint", docs),
             "IsScholarly": percentTrue(d => d.IsScholarly[0] === "true", docs),
             "Link Works": percentTrue("link_check_resolves_to_full_text", docs),
         },
         "Broken Links": {
             "count": broken.length,
             "hasFullText": percentTrue("hasFullText", broken),
-            "inHoldings": percentTrue("inHoldings", broken),
+            // "inHoldings": percentTrue("inHoldings", broken),
             "isFullTextHit": percentTrue("isFullTextHit", broken),
             "IsOpenAccess": percentTrue(d => d.IsOpenAccess && d.IsOpenAccess[0] === "true", broken),
             "IsPeerReviewed": percentTrue(d => d.IsPeerReviewed[0] === "true", broken),
-            "isPrint": percentTrue("isPrint", broken),
+            // "isPrint": percentTrue("isPrint", broken),
             "IsScholarly": percentTrue(d => d.IsScholarly[0] === "true", broken),
             "Can Find Full Text": percentTrue("link_check_full_text", broken),
         },
         "Working Links": {
             "count": working.length,
             "hasFullText": percentTrue("hasFullText", working),
-            "inHoldings": percentTrue("inHoldings", working),
+            // "inHoldings": percentTrue("inHoldings", working),
             "isFullTextHit": percentTrue("isFullTextHit", working),
             "IsOpenAccess": percentTrue(d => d.IsOpenAccess && d.IsOpenAccess[0] === "true", working),
             "IsPeerReviewed": percentTrue(d => d.IsPeerReviewed[0] === "true", working),
-            "isPrint": percentTrue("isPrint", working),
+            // "isPrint": percentTrue("isPrint", working),
             "IsScholarly": percentTrue(d => d.IsScholarly[0] === "true", working),
         },
     }
@@ -110,7 +112,7 @@ function summarize(docs) {
             }
         })
     }
-    let fields = ["ContentType", "SourceID", "SourceType", "link_check_destination"]
+    let fields = ["ContentType", "LinkModel", "SourceID", "SourceType", "link_check_destination"]
     fields.forEach(f => procValues(f))
     return summary
 }
