@@ -1,6 +1,8 @@
 node_modules
 config.json
-data/*
+data/*.json
+data/results/*.json
 !data/.gitkeep
+!data/results/.gitkeep
 !data/anonymized-analysis.json
 !data/summary-statistics.json
