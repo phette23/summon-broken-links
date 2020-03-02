@@ -1,8 +1,10 @@
 node_modules
 config.json
 data/*.json
+data/analysis/*.json
 data/results/*.json
 !data/.gitkeep
+!data/analysis/.gitkeep
 !data/results/.gitkeep
 !data/anonymized-analysis.json
 !data/summary-statistics.json
