@@ -9,6 +9,7 @@ let fields = {
     Title: 'Title',
     Author: 'Author',
     Link: 'link',
+    Summon: 'BookMark',
     Type: 'ContentType',
     Publication: 'PublicationTitle',
     Year: 'PublicationYear',
@@ -17,13 +18,14 @@ let fields = {
     LinkModel: 'LinkModel',
 }
 let fieldNames = Object.keys(fields)
+let escape = (s) => s.replace(/"/g,'""')
 
 // flatterns & stringifies arrays while not choking on other input
 // this DOES choke on arrays of objects e.g. PublicationDate_xml, Publisher_xml
 function str(arg) {
     // return comma-separated string, skipping over empty entries
-    if (Array.isArray(arg)) return arg.filter(i => i != '').join(', ')
-    if (typeof arg === 'string') return arg
+    if (Array.isArray(arg)) return escape(arg.filter(i => i != '').join(', '))
+    if (typeof arg === 'string') return escape(arg)
     return ''
 }
 
