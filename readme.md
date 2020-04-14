@@ -1,6 +1,6 @@
 # Broken Links in Summon
 
-Software to study linking in the Summon discovery layer and the results of a study (in the "data" directory) from October 2019 at California College of the Arts.
+This repository contains software to study linking in the Summon discovery layer. In the "data" directory, it also contains the results of two studies—one from October 2019 and one from April 2020 (post-Central Discovery Index)—using California College of the Arts' Summon instance.
 
 It should be possible to execute a study yourself by following the steps below. To obtain data from the Summon API, you need to ask their support team for an API key, then copy the example.config.json file to config.json while filling in your authorization key and organizational access code (final subdomain of your Summon instance). To run these scripts, install [node](https://nodejs.org/en/) and then add the dependencies by running `npm install` inside this project's directory.
 
