@@ -35,15 +35,25 @@ Once we have a series of search results, we can systematically review them to se
 - what URL did you end up on?
 - was it the full text?
 - if not, can you _eventually_ navigate to the full text?
+- is this item a duplicate of another in the same search?
 - if you weren't taken directly to the full text, optionally fill in some notes on what happened
 
 These data are embedded into the original search result record then saved to JSON files in data/analysis, analogous to the results files.
 
 For all but the first (URL) question, there is a subjective element. Even answering "is this the full text?" is not so straightforward. Often, an OpenURL link will resolve not directly to a single article but to a query within a database. If there was only one result and it was the desired article, I counted these sorts of links as successfully retrieving full text, even if in actuality users must take one additional step to read the resource. In some cases, this meant that a link to a query which retrieves three or even two results, with the correct resource amongst them, was marked broken, but I find it better to have a hard criteria than to make exceptions. After all, the promise is that links yield the full text and nothing else.
 
-"Eventually navigating to the full text" is obviously even more subjective and might vary from easily browsing from a journal's index page to a specific article, to repeatedly rephrasing a search query until it yields useful results. It is hard to categorize or quantify these search efforts but my guiding principle was to try to locate full text _from where Summon took me_, e.g. not restarting with Google or another external search tool, while spending no more than five minutes looking. I suspect that most library users would not put even that much effort into locating a source, but alas that is a separate study.
+"Eventually navigating to the full text" is obviously even more subjective and might vary from easily browsing from a journal's index page to a specific article, to repeatedly rephrasing a search query until it yields the desired document. It is hard to categorize or quantify these search efforts but my guiding principle was to try to locate full text _from where Summon took me_, e.g. not restarting with Google or another external search tool, while spending no more than five minutes looking. I suspect that most library users would not put even that much effort into locating a source, but alas that is for a separate study to determine.
 
 `node src/check-links.js`
+
+Alternatively, to let people unfamiliar with the command line perform link checks, I wrote a utilities to translate JSON results data to and from a CSV, which could be annotated in spreadsheet software by adding five additional columns (in the same order listed above: destination URL, resolves to full text boolean, eventual full text boolean, duplicate boolean, and notes) and then filling in their values for each row. The names of the new columns do not matter, as long as they are the last (right-most) five columns. In Google Spreadsheets, I used "checkbox" data validation (select the range > Data > Data Validation > Criteria: Checkbox) which fills in a checked cell with the string "TRUE". Once you're finished checking all links, the results can be downloaded/saved as a CSV, converted back to JSON, and processing by the final steps described in the next section.
+
+```sh
+> node src/concat-json.js data/results
+> node src/to-csv.js data/results/all.json > data/results/all.csv
+> # edit CSV, check all links, download it e.g. as "data/analysis/analysis.csv"
+> node src/merge-analysis-csv-and-results-json.js data/analysis/analysis.csv > data/analysis/all.json
+```
 
 ## Aggregate data & compile summary statistics
 

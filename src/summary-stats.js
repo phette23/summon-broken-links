@@ -70,6 +70,7 @@ function summarize(docs) {
             // "isPrint": percentTrue("isPrint", docs),
             "IsScholarly": percentTrue(d => d.IsScholarly[0] === "true", docs),
             "Link Works": percentTrue("link_check_resolves_to_full_text", docs),
+            "Part of Duplicate Set": percentTrue("link_check_duplicate", docs),
         },
         "Broken Links": {
             "count": broken.length,
@@ -81,6 +82,7 @@ function summarize(docs) {
             // "isPrint": percentTrue("isPrint", broken),
             "IsScholarly": percentTrue(d => d.IsScholarly[0] === "true", broken),
             "Can Find Full Text": percentTrue("link_check_full_text", broken),
+            "Part of Duplicate Set": percentTrue("link_check_duplicate", broken),
         },
         "Working Links": {
             "count": working.length,
@@ -91,6 +93,7 @@ function summarize(docs) {
             "IsPeerReviewed": percentTrue(d => d.IsPeerReviewed[0] === "true", working),
             // "isPrint": percentTrue("isPrint", working),
             "IsScholarly": percentTrue(d => d.IsScholarly[0] === "true", working),
+            "Part of Duplicate Set": percentTrue("link_check_duplicate", working),
         },
     }
     // only 2 link models currently (DirectLink & OpenURL) but this will continue

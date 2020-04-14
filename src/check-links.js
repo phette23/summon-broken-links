@@ -76,6 +76,14 @@ let link_check_schema = {
             // only ask if we didn't already get full text
             ask: () => !prompt.history('resolves_to_full_text').value
         },
+        duplicate: {
+            description: 'Is this a duplicate of another item from the same results set? (y/n) ',
+            type: 'string',
+            message: 'please type "y" for "yes" or "n" for "no"',
+            pattern: yn_regex,
+            before: convertYNToBoolean,
+            required: true
+        },
         notes: {
             description: 'Notes (optional): ',
             type: 'string',
