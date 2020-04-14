@@ -1,4 +1,6 @@
-// given "analyis" dir with list of JSON files, combine them all into one
+// givendir with list of JSON files, combine them all into one
+// defaults to data/analysis dir but you can pass it data/results & it'll work
+// puts the combined "all.json" file in the directory you target
 const fs = require("fs")
 const path = require("path")
 
@@ -6,12 +8,13 @@ const async = require("async")
 
 const stringify = require("./stringify.js")
 let outfile = 'all.json'
-let dir = 'data/analysis'
+let dir = process.argv[2] || 'data/analysis'
 
 // async function, must return callback(err, result)
 function readJSON (file, callback) {
     fs.readFile(path.join(dir, file), (err, data) => {
         data = JSON.parse(data)
+        if (data.documents) data = data.documents
         return callback(err, data)
     })
 }
