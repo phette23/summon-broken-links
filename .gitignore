@@ -1,6 +1,7 @@
 node_modules
 config.json
 data/*.json
+data/*.csv
 data/analysis/*.json
 data/results/*.json
 data/*-study/
