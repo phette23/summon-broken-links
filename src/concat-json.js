@@ -27,7 +27,7 @@ function combineAndWrite (err, result) {
     // write JSON data to outfile
     fs.writeFile(path.join(dir, outfile), stringify(output), (err) => {
         if (err) throw err
-        console.log(`Combined all JSON files in ${dir} into  ${dir}${path.sep}${outfile}`)
+        console.log(`Combined all JSON files in ${dir} into ${dir}${path.sep}${outfile}`)
     })
 }
 
