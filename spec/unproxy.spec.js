@@ -1,5 +1,5 @@
 describe("test unproxyDomain function", function() {
-    const unproxyDomain = require('../src/unproxy-domain');
+    const unproxyDomain = require('../src/unproxy-domain')
     it("removes the proxied domain & replaces with the original", function() {
         // JSTOR
         expect(unproxyDomain('https://www-jstor-org.proxy.cca.edu/openurl?issn=0012-9658&volume=96&date=2015&issue=12&spage=3394&aulast=ESA')).toBe('https://www.jstor.org/openurl?issn=0012-9658&volume=96&date=2015&issue=12&spage=3394&aulast=ESA');
@@ -18,6 +18,6 @@ describe("test unproxyDomain function", function() {
         u = 'http://unproxied-domain.using-hyphens.com'
         expect(unproxyDomain(u)).toBe(u)
 
-        // @TODO what does EZproxy do to a domain with hyphens in it originally?
-    });
-});
+        // TODO what does EZproxy do to a domain with hyphens in it originally?
+    })
+})
