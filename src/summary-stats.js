@@ -12,6 +12,7 @@ const outfile = 'data/summary-statistics.json'
  * or (in the function form) property(item) returns true
  */
 function percentTrue(property, array) {
+    if (!array.length) return "100.00%"
     let filter = property
     if (typeof property === 'string') {
         filter = i => i[property]
@@ -108,7 +109,7 @@ function summarize(docs) {
     let procValues = (field) => {
         summary[field] = {}
         enumerate(field, docs).sort().forEach(type => {
-            typeDocs = docs.filter(doc => doc[field].includes(type))
+            typeDocs = docs.filter(doc => doc[field]?.includes(type))
             summary[field][type] = {
                 count: typeDocs.length,
                 "Link Works": percentTrue("link_check_resolves_to_full_text", typeDocs)
@@ -120,13 +121,18 @@ function summarize(docs) {
     return summary
 }
 
-fs.readFile('data/anonymized-analysis.json', 'utf8', (err, data) => {
-    if (err) throw err
-    let summary = summarize(JSON.parse(data))
-    fs.writeFile(outfile, stringify(summary), (err) => {
+module.exports = { enumerate, percentTrue }
+
+// if we're being run on command line, summarize data/anonymized-analysis.json file
+if (require.main == module) {
+    fs.readFile('data/anonymized-analysis.json', 'utf8', (err, data) => {
         if (err) throw err
-        console.log(`Wrote summary statistics to ${outfile}`)
-        console.log('Summary statistics:')
-        console.log(stringify(summary))
+        let summary = summarize(JSON.parse(data))
+        fs.writeFile(outfile, stringify(summary), (err) => {
+            if (err) throw err
+            console.log(`Wrote summary statistics to ${outfile}`)
+            console.log('Summary statistics:')
+            console.log(stringify(summary))
+        })
     })
-})
+}

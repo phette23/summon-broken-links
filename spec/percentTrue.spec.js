@@ -16,4 +16,8 @@ describe('percentTrue', () => {
         expect(percentTrue((i) => i.b.length > 6, items)).toBe("50.00%")
         expect(percentTrue((i) => i.c.includes(2), items)).toBe("25.00%")
     })
+
+    it("returns 100% for empty array", () => {
+        expect(percentTrue("a", [])).toBe("100.00%")
+    })
 })
