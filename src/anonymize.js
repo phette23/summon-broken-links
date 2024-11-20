@@ -25,8 +25,14 @@ function anonymize(doc) {
     copyFields.forEach(f => adoc[f] = doc[f])
     // for our added "link_check" preserve only the domain of the URL
     adoc.link_check = doc.link_check
-    // we use hostname because host includes the URL's port
-    adoc.link_check.destination = new URL(adoc.link_check.destination).hostname
+    // parse destination hostname out of landing URL
+    // for forced downloads we sometimes have only a filename or file:// URL
+    try {
+        // we use URL.hostname because host includes the URL's port
+        adoc.link_check.destination = new URL(adoc.link_check.destination).hostname
+    } catch {
+        adoc.link_check.destination = null
+    }
     return adoc
 }
 
