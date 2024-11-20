@@ -1,4 +1,5 @@
 const crypto = require('crypto')
+const qs = require('querystring')
 
 const config = require('../config.json')
 let accept = 'application/json'
@@ -6,19 +7,19 @@ let host = 'api.summon.serialssolutions.com'
 let path = '/2.0.0/search'
 
 /**
- * @param {array} q - an array of {key:value} parameter objects like
- * [ { "s.q": "nietzsche" }, { "s.fvf": "ContentType..." } ]
+ * @param {object} q - query object of {key:value} parameters
+ * { "s.q": "friedrich nietzsche" , "s.fvf": "ContentType..." }
  * @returns {string} sorted but NOT URI-encoded query string
- * s.fvf=ContentType...&s.q=nietzsche
+ * "s.fvf=ContentType...&s.q=friedrich nietzsche"
  */
 function sortQuery(q) {
-    return q.map(o => `${Object.keys(o)[0].toString()}=${Object.values(o)[0].toString()}`).sort().join('&')
+    return Object.keys(q).sort().map(key => `${key}=${q[key]}`).join('&')
 }
 
 /**
  * https://developers.exlibrisgroup.com/summon/apis/SearchAPI/Authentication/
- * @param {array} query - an array of {key:value} hashes of Summon search params
- * [ { "s.q": "nietzsche" }, { "s.fvf": "ContentType,Journals,false" } ]
+ * @param {object} query - query object of {key:value} hashes of Summon search params
+ * { "s.q": "nietzsche" , "s.fvf": "ContentType,Journals,false" }
  * @param {Date} current date in UTC time e.g. new Date().toUTCString()
  * Since this is also used in the HTTP request headers we need to make it a
  * parameter rather than just have this function calculate it.
@@ -33,11 +34,10 @@ function makeAuthDigest(query, date) {
     return hash.digest('base64')
 }
 
-
 /**
  * https://developers.exlibrisgroup.com/summon/apis/SearchAPI/Authentication/
  * @param {array} query - an array of {key:value} hashes of Summon search params
- * [ { "s.q": "nietzsche" }, { "s.fvf": "ContentType,Journals,false" } ]
+ * { "s.q": "friedrich nietzsche" , "s.fvf": "ContentType..." }
  * @returns {object} key:value pairs representation of HTTP headers
  * for use in request({ url: url, headers: headers })
  */
@@ -55,15 +55,15 @@ function headers(query) {
 
 /**
  * https://developers.exlibrisgroup.com/summon/apis/SearchAPI/Authentication/
- * @param {array} query - an array of {key:value} hashes of Summon search params
- * [ { "s.q": "nietzsche" }, { "s.fvf": "ContentType,Journals,false" } ]
+ * @param {object} query - query object of {key:value} hashes of Summon search params
+ * { "s.q": "friedrich nietzsche" , "s.fvf": "ContentType..." }
  * @returns {string} query string suitable for constructing a Summon API request
  * URL (sorted but not URI encoded)
  */
 function url(query) {
     // we actually don't need the query string to be properly sorted in the URL
     // but it's easier to use the array=>string method we already wrote
-    return `https://${host}${path}?${sortQuery(query)}`
+    return `https://${host}${path}?${qs.stringify(query)}`
 }
 
 module.exports = { makeAuthDigest, headers, url }
