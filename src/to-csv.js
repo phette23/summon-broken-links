@@ -18,6 +18,13 @@ let fields = {
     LinkModel: 'LinkModel',
 }
 let fieldNames = Object.keys(fields)
+let linkCheckFields = [
+    "destination",
+    "duplicate",
+    "full_text",
+    "notes",
+    "resolves_to_full_text",
+]
 let escape = (s) => s.replace(/"/g,'""')
 
 // flatterns & stringifies arrays while not choking on other input
@@ -35,9 +42,12 @@ fs.readFile(filename, 'utf8', (err, data) => {
     // abstract over analysis vs results files
     if (docs.documents) docs = docs.documents
     // print header row
-    console.log(`"${fieldNames.join('","')}"`)
+    process.stdout.write(`"${fieldNames.join('","')}"`)
+    if (docs[0].link_check) process.stdout.write(`,"${linkCheckFields.join('","')}"`)
+    process.stdout.write('\n')
     docs.forEach(d => {
         let strings = fieldNames.map(field => str(d[fields[field]]))
+        if (d.link_check) linkCheckFields.forEach(f => strings.push(d["link_check"][f].toString()))
         console.log(`"${strings.join('","')}"`)
     })
 })
