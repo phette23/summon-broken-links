@@ -128,7 +128,7 @@ function askQuestions(documents, index=0) {
         // ask questions about document
         doc = documents[index]
         print(`Document no. ${index + 1} of ${documents.length}`)
-        print(chalk.cyan.bold(striphtml(doc.Title)))
+        print(chalk.cyan.bold(striphtml(doc.Title[0])))
         if (doc.Author) print(chalk.cyan.bold(`Author(s): ${striphtml(doc.Author.join('; '))}.`))
         print(chalk.blue((`https://${config.org}.summon.serialssolutions.com/#!/search?bookMark=${doc.BookMark[0]}`)))
         // give user two seconds to read document title, then open its Summon link
