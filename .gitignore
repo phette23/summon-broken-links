@@ -8,8 +8,6 @@ data/*-study/
 !data/.gitkeep
 !data/analysis/.gitkeep
 !data/results/.gitkeep
-!data/*anonymized-analysis.json
-!data/*summary-statistics.json
 
 # I used npm originally and I don't think there's a point in changing that
 # but I want to use pnpm now so....
