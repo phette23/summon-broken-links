@@ -19,4 +19,4 @@ General findings: 36% of links failed to retrieve the full text. This is much hi
 | Paywalled | 5 | 3.52% |
 | Clarivate ad | 3 | 2.11% |
 
-The worst link, though, lead to a domain that's since been taken over by a gambling site.
+The most common problem was that links went only to some portion of frontmatter (title page, colophon, table of contents, preface, etc.) but not the complete work. Three links went to the exact same advertisement for a Clarivate demand-driven acquisition product, completed unrelated to the record. The worst link, though, lead to a domain that's since been taken over by a gambling site.
