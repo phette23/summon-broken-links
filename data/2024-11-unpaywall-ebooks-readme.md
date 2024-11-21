@@ -14,7 +14,7 @@ General findings: 36% of links failed to retrieve the full text. This is much hi
 |------|-------|---------|
 | Working link | 91 | 64.08% |
 | Broken link | 51 | 35.92% |
-| Frontmatter only | 29 | 20.42% |
+| Frontmatter only | 28 | 19.72% |
 | Single chapter/article | 5 | 3.52% |
 | Paywalled | 5 | 3.52% |
 | Clarivate ad | 3 | 2.11% |
