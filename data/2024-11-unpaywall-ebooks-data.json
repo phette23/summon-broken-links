@@ -1,0 +1,5376 @@
+[
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"askewsholts",
+			"proquest",
+			"perlego",
+			"oapen",
+			"jstor",
+			"cel",
+			"biblioboard"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Aggregation Database",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "www.jstor.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "repository.urosario.edu.co",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"proquest",
+			"oapen",
+			"bup"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher",
+			"Enrichment Source"
+		],
+		"link_check": {
+			"destination": "",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "repository.urosario.edu.co",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "repository.urosario.edu.co",
+			"resolves_to_full_text": false,
+			"full_text": true,
+			"duplicate": false,
+			"notes": "Restart in repo with a title search finds it"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2000"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": null,
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"true"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"true"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "nrl.northumbria.ac.uk",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "digitool.hbz-nrw.de",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Server error"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"proquest",
+			"perlego",
+			"oapen",
+			"jstor",
+			"casalini",
+			"biblioboard"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "www.jstor.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"askewsholts",
+			"worldbank",
+			"proquest"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Aggregation Database",
+			"Enrichment Source",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "ebookcentral.proquest.com",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "openknowledge.worldbank.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "paulconnolly.net",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Poker scam site"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "eprints.bournemouth.ac.uk",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only the introduction chapter"
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "upcommons.upc.edu",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only the title page"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "repositorio.ipv.pt",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "nottingham-repository.worktribe.com",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook",
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2000",
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen",
+			"jstor",
+			"cleo",
+			"biblioboard"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "www.jstor.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "researchonline.rca.ac.uk",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only cover page"
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "swbplus.bsz-bw.de",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only table of contents"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "books.scielo.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "openknowledge.worldbank.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "pq-static-content.proquest.com",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "This is an advertisement for a Clarivate product!"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "swbplus.bsz-bw.de",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only table of contents"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"askewsholts",
+			"proquest",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Aggregation Database",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "discovery.ucl.ac.uk",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Publication",
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"1900"
+		],
+		"PublicationDecade": [
+			"1920"
+		],
+		"SourceID": [
+			"unpaywall",
+			"smithsonian",
+			"dpla"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "www.biodiversitylibrary.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Publication",
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"1900"
+		],
+		"PublicationDecade": [
+			"1910"
+		],
+		"SourceID": [
+			"unpaywall",
+			"smithsonian",
+			"dpla"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "ia601908.us.archive.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "pq-static-content.proquest.com",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Advertisement for Clarivate DDA!"
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "ntp.niehs.nih.gov",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "ntp.niehs.nih.gov",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "www.gbv.de",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only title & table of contents"
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "swbplus.bsz-bw.de",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only table of contents"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "research-repository.griffith.edu.au",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only introduction chapter"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"askewsholts",
+			"proquest",
+			"projectmuse",
+			"oapen",
+			"jstor",
+			"biblioboard"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Aggregation Database",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "www.jstor.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"askewsholts",
+			"projectmuse",
+			"perlego"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Aggregation Database",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": null,
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"askewsholts",
+			"proquest",
+			"perlego",
+			"oapen",
+			"biblioboard"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Aggregation Database",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "link.springer.com",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"true"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"true"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "www.cis.upenn.edu",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "link.springer.com",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only frontmatter (contents, preface)"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "link.springer.com",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": true,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "media.obvsg.at",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only table of contents"
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "mdpi-res.com",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen",
+			"biblioboard"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "europepmc.org",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only intro article from a journal issue"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "swbplus.bsz-bw.de",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only table of contents"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": null,
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only frontmatter"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "www.cambridge.org",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only introduction"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook",
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"hal",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "directory.doabooks.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook",
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"hal",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "hal.science",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "www.gbv.de",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only table of contents"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen",
+			"biblioboard"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "mdpi-res.com",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "tuprints.ulb.tu-darmstadt.de",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "dspace.khazar.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "mdpi-res.com",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "directory.doabooks.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "onlinelibrary.wiley.com",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only images from longer text"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "directory.doabooks.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"askewsholts",
+			"proquest",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Aggregation Database",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "www.aupress.ca",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen",
+			"biblioboard"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "kb.osu.edu",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "babel.hathitrust.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "babel.hathitrust.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "www.cambridge.org",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Paywalled and link is to only one chapter"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"proquest",
+			"askewsholts",
+			"igpublishing",
+			"ciando"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Aggregation Database",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "ebookcentral.proquest.com",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "digitale-objekte.hbz-nrw.de",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only table of contents"
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "www.gbv.de",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only table of contents"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "www.cambridge.org",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Paywalled"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "directory.doabooks.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "hkr.diva-portal.org",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Book review of the title"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "brill.com",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only frontmatter is OA, chapters are paywalled"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "swbplus.bsz-bw.de",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only back cover blurbs"
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "research-information.bris.ac.uk",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "sk.sagepub.com",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Paywalled"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "link.springer.com",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only frontmatter"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"perlego",
+			"oapen",
+			"biblioboard"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "library.oapen.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"askewsholts",
+			"proquest",
+			"perlego",
+			"oapen",
+			"casalini",
+			"biblioboard"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Aggregation Database",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "directory.doabooks.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "directory.doabooks.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"askewsholts"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Aggregation Database"
+		],
+		"link_check": {
+			"destination": "watermark.silverchair.com",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "www.gbv.de",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only frontmatter"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "library.oapen.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook",
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen",
+			"cleo"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "books.openedition.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"askewsholts",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Aggregation Database",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "directory.doabooks.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "link.springer.com",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only frontmatter"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "directory.doabooks.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "mdpi-res.com",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "openknowledge.worldbank.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "openknowledge.worldbank.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "omp.zrc-sazu.si",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen",
+			"biblioboard"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "openresearchlibrary.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Publication",
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"1800"
+		],
+		"PublicationDecade": [
+			"1880"
+		],
+		"SourceID": [
+			"unpaywall",
+			"smithsonian",
+			"dpla"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "www.biodiversitylibrary.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Publication",
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"1900"
+		],
+		"PublicationDecade": [
+			"1910"
+		],
+		"SourceID": [
+			"unpaywall",
+			"smithsonian",
+			"dpla"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "ia600306.us.archive.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen",
+			"biblioboard"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "openresearchlibrary.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall",
+			"smithsonian"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "ia804509.us.archive.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "openknowledge.worldbank.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "www.kansascityfed.org",
+			"resolves_to_full_text": false,
+			"full_text": true,
+			"duplicate": false,
+			"notes": "https://www.kansascityfed.org/research/research-working-papers/student-loan-relief-programs-2017/"
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "openknowledge.worldbank.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "openknowledge.worldbank.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "openknowledge.worldbank.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "openknowledge.worldbank.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "openknowledge.worldbank.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": null,
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "openknowledge.worldbank.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "openknowledge.worldbank.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "directory.doabooks.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"askewsholts",
+			"proquest",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Aggregation Database",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "direct.mit.edu",
+			"resolves_to_full_text": false,
+			"full_text": true,
+			"duplicate": false,
+			"notes": "Broken link, deleting the final number in the URL resolves to the book"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "macsphere.mcmaster.ca",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only one chapter of book"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "directory.doabooks.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "eprints.qut.edu.au",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only one chapter "
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "www.emerald.com",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only frontmatter"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "www.cambridge.org",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Paywalled"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "openuctpress.uct.ac.za",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Broken link, page never loads"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"proquest",
+			"askewsholts",
+			"projectmuse",
+			"perlego",
+			"highwire",
+			"dukeupress",
+			"biblioboard"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Aggregation Database",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "muse.jhu.edu",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": true,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "library.oapen.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "pq-static-content.proquest.com",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Add for Clarivate DDA product"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "books.scielo.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "directory.doabooks.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "directory.doabooks.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "openknowledge.worldbank.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"uadelaidepress",
+			"perlego",
+			"oapen",
+			"jstor",
+			"cambridge",
+			"biblioboard"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Enrichment Source",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "www.jstor.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "digitool.hbz-nrw.de",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Broken link, page never loads"
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "www.scitepress.org",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Paywalled"
+		}
+	},
+	{
+		"ContentType": [
+			"Publication",
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"1900"
+		],
+		"PublicationDecade": [
+			"1920"
+		],
+		"SourceID": [
+			"unpaywall",
+			"smithsonian",
+			"dpla"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "ia803100.us.archive.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "babel.hathitrust.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "kar.kent.ac.uk",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only one article of book"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "directory.doabooks.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"askewsholts",
+			"proquest",
+			"knovel",
+			"informaworld"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Aggregation Database",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "prod-com-bibliolabs-nuvique-app-content.s3.amazonaws.com",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "europepmc.org",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only frontmatter"
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall",
+			"smithsonian"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "www.biodiversitylibrary.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Publication",
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"1900"
+		],
+		"PublicationDecade": [
+			"1920"
+		],
+		"SourceID": [
+			"unpaywall",
+			"smithsonian",
+			"dpla"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "ia801502.us.archive.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "link.springer.com",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only frontmatter"
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "media.obvsg.at",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "First page only"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "kar.kent.ac.uk",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "digitalcommons.unl.edu",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only intro chapter"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "swbplus.bsz-bw.de",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only table of contents"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "ualresearchonline.arts.ac.uk",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "link.springer.com",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only table of contents"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": null,
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only one chapter"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2020"
+		],
+		"SourceID": [
+			"unpaywall",
+			"proquest",
+			"oapen"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "link.springer.com",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"PublicationCentury": [
+			"2000"
+		],
+		"PublicationDecade": [
+			"2010"
+		],
+		"SourceID": [
+			"unpaywall",
+			"askewsholts",
+			"proquest",
+			"projectmuse",
+			"oapen",
+			"jstor",
+			"biblioboard"
+		],
+		"SourceType": [
+			"Open Access Repository",
+			"Aggregation Database",
+			"Publisher"
+		],
+		"link_check": {
+			"destination": "www.jstor.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": false,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "swbplus.bsz-bw.de",
+			"resolves_to_full_text": false,
+			"full_text": false,
+			"duplicate": false,
+			"notes": "Only table of contents"
+		}
+	},
+	{
+		"ContentType": [
+			"eBook"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "openknowledge.worldbank.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "openknowledge.worldbank.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "www.wider.unu.edu",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "www.oecd-ilibrary.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "dspace.khazar.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	},
+	{
+		"ContentType": [
+			"Book"
+		],
+		"hasFullText": true,
+		"inHoldings": true,
+		"isFullTextHit": true,
+		"IsOpenAccess": [
+			"true"
+		],
+		"IsPeerReviewed": [
+			"false"
+		],
+		"isPrint": false,
+		"IsScholarly": [
+			"false"
+		],
+		"LinkModel": [
+			"DirectLink"
+		],
+		"SourceID": [
+			"unpaywall"
+		],
+		"SourceType": [
+			"Open Access Repository"
+		],
+		"link_check": {
+			"destination": "openknowledge.worldbank.org",
+			"resolves_to_full_text": true,
+			"full_text": "",
+			"duplicate": false,
+			"notes": ""
+		}
+	}
+]

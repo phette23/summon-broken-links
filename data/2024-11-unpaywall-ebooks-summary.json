@@ -1,0 +1,428 @@
+{
+	"All Documents": {
+		"count": 142,
+		"hasFullText": "100.00%",
+		"isFullTextHit": "31.69%",
+		"IsOpenAccess": "100.00%",
+		"IsPeerReviewed": "1.41%",
+		"IsScholarly": "1.41%",
+		"Link Works": "64.08%",
+		"Part of Duplicate Set": "1.41%",
+		"DirectLink Link": "100.00%"
+	},
+	"Broken Links": {
+		"count": 51,
+		"hasFullText": "100.00%",
+		"isFullTextHit": "37.25%",
+		"IsOpenAccess": "100.00%",
+		"IsPeerReviewed": "0.00%",
+		"IsScholarly": "0.00%",
+		"Can Find Full Text": "5.88%",
+		"Part of Duplicate Set": "0.00%",
+		"DirectLink Link": "100.00%"
+	},
+	"Working Links": {
+		"count": 91,
+		"hasFullText": "100.00%",
+		"isFullTextHit": "28.57%",
+		"IsOpenAccess": "100.00%",
+		"IsPeerReviewed": "2.20%",
+		"IsScholarly": "2.20%",
+		"Part of Duplicate Set": "2.20%",
+		"DirectLink Link": "100.00%"
+	},
+	"ContentType": {
+		"Book": {
+			"count": 56,
+			"Link Works": "67.86%"
+		},
+		"Publication": {
+			"count": 6,
+			"Link Works": "100.00%"
+		},
+		"eBook": {
+			"count": 90,
+			"Link Works": "63.33%"
+		}
+	},
+	"LinkModel": {
+		"DirectLink": {
+			"count": 142,
+			"Link Works": "64.08%"
+		}
+	},
+	"SourceID": {
+		"askewsholts": {
+			"count": 15,
+			"Link Works": "93.33%"
+		},
+		"biblioboard": {
+			"count": 15,
+			"Link Works": "93.33%"
+		},
+		"bup": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"cambridge": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"casalini": {
+			"count": 2,
+			"Link Works": "100.00%"
+		},
+		"cel": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"ciando": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"cleo": {
+			"count": 2,
+			"Link Works": "100.00%"
+		},
+		"dpla": {
+			"count": 6,
+			"Link Works": "100.00%"
+		},
+		"dukeupress": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"hal": {
+			"count": 2,
+			"Link Works": "100.00%"
+		},
+		"highwire": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"igpublishing": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"informaworld": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"jstor": {
+			"count": 6,
+			"Link Works": "100.00%"
+		},
+		"knovel": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"oapen": {
+			"count": 41,
+			"Link Works": "92.68%"
+		},
+		"perlego": {
+			"count": 8,
+			"Link Works": "100.00%"
+		},
+		"projectmuse": {
+			"count": 4,
+			"Link Works": "100.00%"
+		},
+		"proquest": {
+			"count": 15,
+			"Link Works": "93.33%"
+		},
+		"smithsonian": {
+			"count": 8,
+			"Link Works": "100.00%"
+		},
+		"uadelaidepress": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"unpaywall": {
+			"count": 142,
+			"Link Works": "64.08%"
+		},
+		"worldbank": {
+			"count": 1,
+			"Link Works": "100.00%"
+		}
+	},
+	"SourceType": {
+		"Aggregation Database": {
+			"count": 15,
+			"Link Works": "93.33%"
+		},
+		"Enrichment Source": {
+			"count": 3,
+			"Link Works": "100.00%"
+		},
+		"Open Access Repository": {
+			"count": 142,
+			"Link Works": "64.08%"
+		},
+		"Publisher": {
+			"count": 46,
+			"Link Works": "93.48%"
+		}
+	},
+	"link_check_destination": {
+		"babel.hathitrust.org": {
+			"count": 3,
+			"Link Works": "100.00%"
+		},
+		"books.openedition.org": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"books.scielo.org": {
+			"count": 2,
+			"Link Works": "100.00%"
+		},
+		"brill.com": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"digitalcommons.unl.edu": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"digitale-objekte.hbz-nrw.de": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"digitool.hbz-nrw.de": {
+			"count": 2,
+			"Link Works": "0.00%"
+		},
+		"direct.mit.edu": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"directory.doabooks.org": {
+			"count": 13,
+			"Link Works": "100.00%"
+		},
+		"discovery.ucl.ac.uk": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"dspace.khazar.org": {
+			"count": 2,
+			"Link Works": "100.00%"
+		},
+		"ebookcentral.proquest.com": {
+			"count": 2,
+			"Link Works": "100.00%"
+		},
+		"eprints.bournemouth.ac.uk": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"eprints.qut.edu.au": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"europepmc.org": {
+			"count": 2,
+			"Link Works": "0.00%"
+		},
+		"hal.science": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"hkr.diva-portal.org": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"ia600306.us.archive.org": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"ia601908.us.archive.org": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"ia801502.us.archive.org": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"ia803100.us.archive.org": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"ia804509.us.archive.org": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"kar.kent.ac.uk": {
+			"count": 2,
+			"Link Works": "50.00%"
+		},
+		"kb.osu.edu": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"library.oapen.org": {
+			"count": 3,
+			"Link Works": "100.00%"
+		},
+		"link.springer.com": {
+			"count": 8,
+			"Link Works": "37.50%"
+		},
+		"macsphere.mcmaster.ca": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"mdpi-res.com": {
+			"count": 4,
+			"Link Works": "100.00%"
+		},
+		"media.obvsg.at": {
+			"count": 2,
+			"Link Works": "0.00%"
+		},
+		"muse.jhu.edu": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"nottingham-repository.worktribe.com": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"nrl.northumbria.ac.uk": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"ntp.niehs.nih.gov": {
+			"count": 2,
+			"Link Works": "100.00%"
+		},
+		"null": {
+			"count": 0,
+			"Link Works": "100.00%"
+		},
+		"omp.zrc-sazu.si": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"onlinelibrary.wiley.com": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"openknowledge.worldbank.org": {
+			"count": 16,
+			"Link Works": "100.00%"
+		},
+		"openresearchlibrary.org": {
+			"count": 2,
+			"Link Works": "100.00%"
+		},
+		"openuctpress.uct.ac.za": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"paulconnolly.net": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"pq-static-content.proquest.com": {
+			"count": 3,
+			"Link Works": "0.00%"
+		},
+		"prod-com-bibliolabs-nuvique-app-content.s3.amazonaws.com": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"repositorio.ipv.pt": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"repository.urosario.edu.co": {
+			"count": 3,
+			"Link Works": "66.67%"
+		},
+		"research-information.bris.ac.uk": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"research-repository.griffith.edu.au": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"researchonline.rca.ac.uk": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"sk.sagepub.com": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"swbplus.bsz-bw.de": {
+			"count": 7,
+			"Link Works": "0.00%"
+		},
+		"tuprints.ulb.tu-darmstadt.de": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"ualresearchonline.arts.ac.uk": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"upcommons.upc.edu": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"watermark.silverchair.com": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"www.aupress.ca": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"www.biodiversitylibrary.org": {
+			"count": 3,
+			"Link Works": "100.00%"
+		},
+		"www.cambridge.org": {
+			"count": 4,
+			"Link Works": "0.00%"
+		},
+		"www.cis.upenn.edu": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"www.emerald.com": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"www.gbv.de": {
+			"count": 4,
+			"Link Works": "0.00%"
+		},
+		"www.jstor.org": {
+			"count": 6,
+			"Link Works": "100.00%"
+		},
+		"www.kansascityfed.org": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"www.oecd-ilibrary.org": {
+			"count": 1,
+			"Link Works": "100.00%"
+		},
+		"www.scitepress.org": {
+			"count": 1,
+			"Link Works": "0.00%"
+		},
+		"www.wider.unu.edu": {
+			"count": 1,
+			"Link Works": "100.00%"
+		}
+	}
+}
